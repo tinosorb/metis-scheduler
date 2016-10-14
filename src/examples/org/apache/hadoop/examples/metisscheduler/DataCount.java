@@ -12,6 +12,11 @@
  *  limitations under the License.
  */
 
+/**
+ * Exact input record count based on the key. -XM
+ */
+/
+
 
 package org.apache.hadoop.examples;
 
