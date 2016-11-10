@@ -218,6 +218,17 @@ public class TeraSort extends Configured implements Tool {
     }
 
     public int getPartition(Text key, Text value, int numPartitions) {
+
+      BufferedWriter bf;
+      try {
+        bf = new BufferedWriter(new FileWriter(file,true));
+        bf.append(String.valueOf(trie.findPartition(key)));
+        bf.newLine();
+        bf.close();
+      } catch (IOException e) {
+        e.printStackTrace();
+      }
+
       return trie.findPartition(key);
     }
     
