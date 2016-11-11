@@ -20,6 +20,7 @@ package org.apache.hadoop.examples.terasort;
 
 import java.io.IOException;
 import java.io.PrintStream;
+import java.io;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
