@@ -20,7 +20,10 @@ package org.apache.hadoop.examples.terasort;
 
 import java.io.IOException;
 import java.io.PrintStream;
-import java.io;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.*;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
@@ -220,8 +223,13 @@ public class TeraSort extends Configured implements Tool {
 
     public int getPartition(Text key, Text value, int numPartitions) {
 
+/*
+ * Xiao: output the assigned partition number of each record.
+ */
+
       BufferedWriter bf;
       try {
+        File file = new File("Parts.txt");
         bf = new BufferedWriter(new FileWriter(file,true));
         bf.append(String.valueOf(trie.findPartition(key)));
         bf.newLine();
