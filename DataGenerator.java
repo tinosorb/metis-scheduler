@@ -19,11 +19,16 @@ public class DataGenerator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Number of records: ");
         int num = Integer.parseInt(scanner.next());
-
+	System.out.print("Skewness (number of duplicated chunks this file contains): ");
+        int skew = Integer.parseInt(scanner.next());
+        
         PrintWriter writer = new PrintWriter("data.txt", "UTF-8");
 
-        for (int i = 0; i < num; i++)
-            writer.println(randomString(100));
-        writer.close();
+        for (int j = 0; j < skew; j++) {
+		String record = randomString(100);
+		for (int i = 0; i < num/3; i++)
+            		writer.println(record);
+        }
+	writer.close();	
     }
 }
