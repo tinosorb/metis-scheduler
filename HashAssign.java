@@ -25,13 +25,13 @@ public class HashAssign{
             for(String line; (line = br.readLine()) != null; ) {
                 // process the line.
                 if (line.length() >= 10) {
-			key = line.substring(0,10);
+			        key = line.substring(0,10);
                 // System.out.println("Key is: " + key);
                 	hashvalue = getPartition(key,rnum);
                 	assignment[hashvalue] += 1;
                 // System.out.println("Hashed to reducer: " + hashvalue);
             	}
-	    }	
+	        }
             for (int element: assignment) {
                 System.out.print(element+",");
             }
