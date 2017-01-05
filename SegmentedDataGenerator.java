@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.security.SecureRandom;
 import java.math.BigInteger;
 
-public class DataGenerator {
+public class SegmentedDataGenerator {
     static final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     static SecureRandom rnd = new SecureRandom();
 
