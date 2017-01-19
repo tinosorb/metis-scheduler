@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7233b2a5-7a8d-4531-a56d-d7b2f9521093" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/max-hadoop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/max-hungarian.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.dat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashAssign.class" afterPath="$PROJECT_DIR$/HashAssign.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashAssignDir.java" afterPath="$PROJECT_DIR$/HashAssignDir.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashAssign.java" afterPath="$PROJECT_DIR$/HashAssign.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hungarian16.py" afterPath="$PROJECT_DIR$/hungarian16.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-hadoop.py" afterPath="$PROJECT_DIR$/sum-hadoop.py" />
     </list>
     <ignored path="metis-scheduler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,34 +34,42 @@
     <favorites_list name="metis-scheduler" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SegmentedDataGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SegmentedDataGenerator.java">
+    <leaf>
+      <file leaf-file-name="hungarian16.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hungarian16.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashAssignDir.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HashAssignDir.java">
+      <file leaf-file-name="sum-hadoop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sum-hadoop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hungarian16.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hungarian16.py">
+      <file leaf-file-name="max-hungarian.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max-hungarian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="max-hadoop.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/max-hadoop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,10 +104,14 @@
         <option value="$PROJECT_DIR$/hungarian.py" />
         <option value="$PROJECT_DIR$/maxoptimal.py" />
         <option value="$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraSort.java" />
-        <option value="$PROJECT_DIR$/HashAssign.java" />
         <option value="$PROJECT_DIR$/DataGenerator.java" />
         <option value="$PROJECT_DIR$/SegmentedDataGenerator.java" />
         <option value="$PROJECT_DIR$/HashAssignDir.java" />
+        <option value="$PROJECT_DIR$/HashAssign.java" />
+        <option value="$PROJECT_DIR$/hungarian16.py" />
+        <option value="$PROJECT_DIR$/max-hungarian.py" />
+        <option value="$PROJECT_DIR$/max-hadoop.py" />
+        <option value="$PROJECT_DIR$/sum-hadoop.py" />
       </list>
     </option>
   </component>
@@ -111,9 +129,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="355" />
-    <option name="y" value="63" />
-    <option name="width" value="956" />
+    <option name="x" value="48" />
+    <option name="y" value="36" />
+    <option name="width" value="895" />
     <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -141,12 +159,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis-scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis-scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis-scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,6 +191,7 @@
     <property name="SearchEverywhereHistoryKey" value="partitioner&#9;FILE&#9;file:///Users/xiaomeng/Code/metis-scheduler/src/mapred/org/apache/hadoop/mapred/Partitioner.java&#10;hashPar&#9;FILE&#9;file:///Users/xiaomeng/Code/metis-scheduler/src/mapred/org/apache/hadoop/mapred/lib/HashPartitioner.java&#10;fairsche&#9;FILE&#9;file:///Users/xiaomeng/Code/metis-scheduler/src/contrib/fairscheduler/src/java/org/apache/hadoop/mapred/FairScheduler.java&#10;capacity&#9;PSI&#9;JAVA://java.util.Vector#capacity&#10;scheduler&#9;PSI&#9;JAVA://sun.rmi.transport.tcp.TCPChannel#scheduler&#10;metis&#9;FILE&#9;file:///Users/xiaomeng/Code/metis-scheduler/src/mapred/org/apache/hadoop/mapred/MetisScheduler.java" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -770,15 +806,16 @@
       <workItem from="1483074938235" duration="2907000" />
       <workItem from="1483585041007" duration="606000" />
       <workItem from="1483902324389" duration="357000" />
-      <workItem from="1484091713373" duration="930000" />
+      <workItem from="1484091713373" duration="7677000" />
+      <workItem from="1484589361652" duration="6772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27934000" />
+    <option name="totallyTimeSpent" value="41453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="355" y="63" width="956" height="737" extended-state="0" />
+    <frame x="48" y="36" width="895" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -792,7 +829,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36401674" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860335" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -833,12 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/JobQueueTaskScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/src/contrib/fairscheduler/src/java/org/apache/hadoop/mapred/FairScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/TaskScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/metisscheduler/DataCount.java" />
-    <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/metisscheduler/TeraSample.java" />
-    <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraSort.java" />
     <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/WordCount.java" />
     <entry file="file://$PROJECT_DIR$/src/examples/org/metisscheduler/BinPacking.java" />
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/JobQueueTaskScheduler.java" />
@@ -883,21 +914,7 @@
     <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraOutputFormat.java" />
     <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraSort.class" />
     <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraInputFormat.java" />
-    <entry file="file://$PROJECT_DIR$/sumoptimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hungarian.py" />
-    <entry file="file://$PROJECT_DIR$/maxoptimal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/org/apache/hadoop/examples/terasort/TeraSort.java" />
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/lib/HashPartitioner.java" />
     <entry file="file://$PROJECT_DIR$/src/mapred/org/apache/hadoop/mapred/Partitioner.java" />
@@ -909,26 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HashAssign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hungarian16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReducerSim.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,17 +937,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maxoptimal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashAssign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HashAssignDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="657">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sumoptimal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubmed16-total">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nyt16-total">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hungarian8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max-hadoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/max-hungarian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hungarian16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-hadoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

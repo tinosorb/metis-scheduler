@@ -1,4 +1,17 @@
-from munkres import Munkres, print_matrix
+#!/usr/bin/python2
+
+import itertools
+
+print "Start process of computing max(X) given a placement, input is the total cost for assignments"
+
+rnum = int(raw_input("Number of reducers:"))
+snum = int(raw_input("Number of servers:"))
+optimal = 0
+opt_ass = list()
+total = 0
+# Assuming rnum = snum.
+
+matrix = [[0 for x in range(snum)] for y in range(rnum)]
 
 matrix = [[2918509,4280114,4743178,4317601,4742947,4623322,4713528,4743962,4701545,4743962,4703841,4695160,4743962,4460375,4692564,3334860],
           [4566742,4566742,4566742,4566742,4566742,4562141,4292546,4566238,4171021,4566334,4164982,4179136,4566448,1939812,4092021,4566741],
@@ -17,19 +30,49 @@ matrix = [[2918509,4280114,4743178,4317601,4742947,4623322,4713528,4743962,47015
           [4258476,4258477,4258477,4258477,4258477,4258477,4258477,4258477,4258477,4258477,4253724,4754,4258477,4258477,4258477,4258477],
           [4109574,4109575,4109575,4109575,4109575,4109575,4109575,4109575,4109575,4109575,4109575,4108929,4103331,6891,4109575,4109575]]
 
-m = Munkres()
-indexes = m.compute(matrix)
-print_matrix(matrix, msg='Lowest cost through this matrix:')
+#for x in range(rnum):
+#    for y in range(snum):
+#        print "Please enter the edge weight for reducer", x, "on server", y, ": "
+#        ew = int(raw_input())
+#        matrix[x][y] = ew
 
-total = 0
 
-for row, column in indexes:
-    value = matrix[row][column]
-    total += value
-    print '(%d, %d) -> %d' % (row, column, value)
+for x in range(rnum):
+    print "\n"
+    for y in range(snum):
+        print(matrix[x][y]),
+print "\n"
 
-for row, column in indexes:
-    value = matrix[row][column]
-    print column,",",
+#perms = list(itertools.permutations(range(snum)))
+#print "Total number of permutations: ", len(perms)
+#for perm in perms:
+#for server 0  1  2  3  4  5  6  7  8   9  10  11  12  13  14  15
+#          16 14  7 12 15  2  6 10 13   9  11  3   5   1   4   8
+perm = [16, 14,  7, 12, 15,  2,  6, 10, 13,  9,  11,  3,   5,   1,   4,  8]
+assignment = list(perm)
+max = 0
 
-print 'total cost: %d' % total
+for i in range(rnum):
+    ass_ri = assignment[i]
+    #    sum_ri = sum((matrix[i])) - matrix[i][ass_ri]
+    print "Reducer ", i, "onto ", ass_ri, " with cost: ", matrix[i][ass_ri-1]
+    if matrix[i][ass_ri-1] > max:
+        max = matrix[i][ass_ri-1]
+    print "Current MAX!!!: ", max
+#    total = 0
+
+print "max with assignment: ", max, "with ", perm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
