@@ -32,4 +32,4 @@ for row, column in indexes:
     value = matrix[row][column]
     print column,",",
 
-print 'total cost: %d' % totalß
+print 'total cost: %d' % total
