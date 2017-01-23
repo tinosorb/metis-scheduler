@@ -20,23 +20,22 @@ public class HashAssign{
         try(BufferedReader br = new BufferedReader(new FileReader(file))) {
             String key;
             int hashvalue;
-            int[] assignment = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+            int[] assignment = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-            for(String line; (line = br.readLine()) != null; ) {
+            for (String line; (line = br.readLine()) != null; ) {
                 // process the line.
-                if (line.length() >= 10) {
-			        key = line.substring(0,10);
-                    System.out.println("Key is: " + key);
-                	hashvalue = getPartition(key,rnum);
-                	assignment[hashvalue] += 1;
-                // System.out.println("Hashed to reducer: " + hashvalue);
-            	}
-	        }
-            for (int element: assignment) {
-                System.out.print(element+",");
+
+                    key = line.substring(0,10);
+                    // System.out.println("Key is: " + key);
+                    hashvalue = getPartition(key, rnum);
+                    assignment[hashvalue] += 1;
+                    // System.out.println("Hashed to reducer: " + hashvalue);
+
             }
-            // line is not visible here.
-        } catch(IOException ie) {
+            for (int element : assignment) {
+                System.out.print(element + ",");
+            }
+        } catch (IOException ie) {
             ie.printStackTrace();
         }
 
