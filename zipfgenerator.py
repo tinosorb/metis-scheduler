@@ -1,3 +1,4 @@
+#import _future_
 import random
 import bisect
 import math
@@ -23,8 +24,10 @@ n = int(raw_input("Number of records:"))
 alpha = int(raw_input("Value of alpha:"))
 
 generator = ZipfGenerator(n, alpha)
+target = open('../datazipf.txt', 'w')
 
 for i in range(n):
-    print generator.next() + 1000000000
-
-
+	#target = open('datazipf.txt', 'w')
+        target.write(str(generator.next()+1000000000)+'\n')
+        #print generator.next() + 1000000000
+	#print(str(generator.next()+1000000000), target)
