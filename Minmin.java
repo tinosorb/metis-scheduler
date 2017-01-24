@@ -55,7 +55,7 @@ public class Minmin {
                 }
             }
 
-            /* Record the assignemnt of reducer i to server j */
+            /* Record the assignment of reducer i to server j */
             assignment[taskNo] = machine;
             cost[taskNo] = minTime;
             /* Mark this task as removed */
