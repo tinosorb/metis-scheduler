@@ -1,4 +1,19 @@
-[599877,600068,600050,600342,599986,600426,599798,600324,599350,598924,600276,599365,600750,599087,600326,601051],
+#!/usr/bin/python2
+
+import itertools
+
+print "Start process of computing sum(X) given a placement, input is the total cost for assignments"
+
+rnum = int(raw_input("Number of reducers:"))
+snum = int(raw_input("Number of servers:"))
+optimal = 0
+opt_ass = list()
+total = 0
+# Assuming rnum = snum.
+
+matrix = [[0 for x in range(snum)] for y in range(rnum)]
+
+matrix = [[599877,600068,600050,600342,599986,600426,599798,600324,599350,598924,600276,599365,600750,599087,600326,601051],
 [599719,600229,599963,600519,600062,600357,599616,600597,598879,598865,600588,599021,600757,599110,600475,601243],
 [599813,600048,600066,600570,600313,600165,599565,600193,599466,599344,600525,599166,600610,598732,600186,601238],
 [600049,599775,599801,600299,600475,600111,599607,600093,599439,599191,600396,599593,600701,598965,600139,601366],
@@ -13,4 +28,50 @@
 [600120,600244,599926,600456,599839,600382,599546,600283,599306,599123,600780,599081,600676,598874,600438,600926],
 [599965,599959,600112,600227,600266,600354,599696,600055,599176,599321,600523,599226,600622,599315,600325,600858],
 [599651,600641,599922,600274,600286,600088,599476,600375,599069,598943,600513,599415,600693,599321,600288,601045],
-[599754,600099,600219,600535,599883,600188,599673,600345,599356,599213,600423,599331,600652,598757,600321,601251],
+[599754,600099,600219,600535,599883,600188,599673,600345,599356,599213,600423,599331,600652,598757,600321,601251]]#    for y in range(snum):
+#        print "Please enter the edge weight for reducer", x, "on server", y, ": "
+#        ew = int(raw_input())
+#        matrix[x][y] = ew
+
+
+for x in range(rnum):
+    print "\n"
+    for y in range(snum):
+        print(matrix[x][y]),
+print "\n"
+
+#perms = list(itertools.permutations(range(snum)))
+#print "Total number of permutations: ", len(perms)
+#for perm in perms:
+#for server 0  1  2  3  4   5  6  7  8   9  10  11  12  13  14  15
+#
+perm = [14, 13, 12, 11, 10, 15, 8, 7, 6, 5, 4, 3, 2, 1, 0, 9]
+assignment = list(perm)
+for i in range(rnum):
+    ass_ri = assignment[i]
+#    sum_ri = sum((matrix[i])) - matrix[i][ass_ri]
+    print "Reducer ", i, "onto ", ass_ri, " with cost: ", matrix[i][ass_ri]
+    total += matrix[i][ass_ri]
+# print perm, total
+# if total <= optimal or optimal == 0:
+#    optimal = total
+#    opt_ass = assignment
+#    print "Current TOTAL!!!: ", optimal, "with ", opt_ass
+#    total = 0
+
+print "SUM for assignment: ", total, "with ", perm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
