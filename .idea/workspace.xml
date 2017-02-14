@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7233b2a5-7a8d-4531-a56d-d7b2f9521093" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-threshold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/16m16r-sam" afterPath="$PROJECT_DIR$/16m16r-sam" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LBAP/index.html" afterPath="$PROJECT_DIR$/LBAP/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hungarian16.py" afterPath="$PROJECT_DIR$/hungarian16.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max-hadoop.py" afterPath="$PROJECT_DIR$/max-hadoop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/max-hungarian.py" afterPath="$PROJECT_DIR$/max-hungarian.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nyt16-hash" afterPath="$PROJECT_DIR$/nyt16-hash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubmed-sam" afterPath="$PROJECT_DIR$/pubmed-sam" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubmed16-hash" afterPath="$PROJECT_DIR$/pubmed16-hash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-hadoop.py" afterPath="$PROJECT_DIR$/sum-hadoop.py" />
-    </list>
+    <list default="true" id="7233b2a5-7a8d-4531-a56d-d7b2f9521093" name="Default" comment="" />
     <ignored path="metis-scheduler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -61,8 +49,8 @@
       <file leaf-file-name="sum-threshold.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sum-threshold.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+            <state relative-caret-position="175">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -640,9 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-threshold.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+        <state relative-caret-position="175">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>

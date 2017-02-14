@@ -185,6 +185,8 @@ function lbap(C){
 		return feasible;
 	}
 
+	var t0 = performance.now();
+
 	var flatsorted = _.flatten(C).sort(function(a,b){return a-b;});
 	console.log("Flattened and sorted is ",flatsorted);
 	var n = C.length;
@@ -226,7 +228,12 @@ function lbap(C){
 	var final = ubound;
 	var res = getMatchingMemoized(final);
 	console.log("Got final matching ",res," using final threshhold ",final);
+	
+	var t1 = performance.now();
+	console.log("Took " + (t1 - t0) + " milliseconds.")
+
 	return res;
+
 }
 function logMatrix(matrix){
 	console.group();
