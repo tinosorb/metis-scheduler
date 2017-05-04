@@ -139,8 +139,8 @@ public class bottleneckAssignment {
                 //System.out.println(cost[i][j]);  // 3 digits
             }
         }
-        for (int[] row : cost) 
-            System.out.println(Arrays.toString(row));
+        //for (int[] row : cost)
+        //    System.out.println(Arrays.toString(row));
         int sol[] = new int[n + 1];
 
         SolvebottleneckAssignment(n, cost, sol);
