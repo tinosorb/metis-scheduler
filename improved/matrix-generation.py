@@ -1,7 +1,7 @@
 import random
 rows = int(raw_input("Number of rows:"))
 columns = int(raw_input("Number of columns:"))
-thefile = open('matrix.txt', 'w')
+thefile = open('matrix', 'w')
 
 matrix = [[random.randrange(10, 100000, 2) for x in range(columns)] for y in range(rows)]
 
